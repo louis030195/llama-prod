@@ -42,7 +42,7 @@ gcloud services enable cloudbuild.googleapis.com \
 
 To try your app locally with docker simply run inside `src`:
 ```bash
-docker build -t $TAG
+docker build -t $TAG .
 docker run -p 8000:8000 $TAG
 ```
 
